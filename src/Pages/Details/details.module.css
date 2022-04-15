@@ -1,0 +1,39 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.515);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.content{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+.content img{
+    border-radius: 50%;
+}
+
+.data_subjects_ul{
+    width: 55%;
+    max-height: 90%;
+    overflow: scroll;
+    box-shadow: 0 5px 25px rgba(246, 246, 245, 0.507);
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+.subject_container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}

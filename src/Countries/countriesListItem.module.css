@@ -1,0 +1,58 @@
+.container{ 
+    width: 90%;
+    text-align: center;
+    margin: 5px;
+    background-color: rgba(35, 35, 35, 0.886);
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    padding-top: 15px;
+    transition-duration: 0.5s;
+}
+
+.container:hover{
+    box-shadow: 0 5px 25px rgba(246, 246, 245, 0.507);
+    padding-top: 30px;
+}
+
+.container:hover .list_ul{
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.love_icon{
+    width: 2rem;
+    border-radius: 40%;
+}
+
+.list_ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
+    font-style: italic;
+}
+
+
+.controlls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.585);
+    padding: 16px;
+    border-radius: 20% 20% 0 0;
+}
+
+.controlls *:hover{
+    cursor: pointer;
+}
+
+.controlls button{
+    padding: 5px;
+    width: 20%;
+    font-size: 1.2rem;
+    background-color: rgba(0, 90, 73, 0.684);
+    border: none;
+    border-radius: 20px;
+}

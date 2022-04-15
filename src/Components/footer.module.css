@@ -1,0 +1,25 @@
+.footer_container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(26,32,29,0.5);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  left: 0;
+}
+
+.footer_container:hover {
+  background-color: rgba(26,32,29,1);;
+}
+
+.footer_text {
+  color: rgba(250, 235, 215, 0.733);
+  font-size: 1rem;
+  text-align: right;
+  width: 90%;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}

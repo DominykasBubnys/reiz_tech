@@ -1,0 +1,90 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.515);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.content{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+._no_saved_countries{
+    color: brown;
+}
+
+.content ul{
+    list-style: none;
+}
+
+._header{
+    display: block;
+    color: rgb(196, 225, 218);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.auth_content{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.915);
+
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 5px 25px inset #f6f6f581;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.val{
+    color: aquamarine;
+    margin-left: 3rem;
+}
+
+.auth_content ul li{
+    font-size: 1.5rem;
+}
+
+.saved_ul{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.515);
+
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 2rem;
+    max-height: 50%;
+    overflow: scroll;
+
+}
+
+.icon{
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 4rem;
+}
+
+
+@media (max-width: 1000px) {
+    .content {
+      width: 95%;
+    }
+}

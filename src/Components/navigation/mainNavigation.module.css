@@ -1,0 +1,50 @@
+.main_navigation__menu_btn {
+  width: 5rem;
+  height: 3rem;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 3rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.main_navigation__menu_btn span {
+  display: block;
+  width: 4rem;
+  height: 1.5px;
+  background: white;
+}
+
+.main_navigation__title {
+  color: white;
+  font-style: italic;
+  letter-spacing: 8px;
+  font-weight: 100;
+  margin-left: 4vw;
+}
+
+.main_navigation__title a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_navigation__header_nav {
+  display: none;
+}
+
+.main_navigation__drawer_nav {
+  height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .main_navigation__menu_btn {
+    display: none;
+  }
+
+  .main_navigation__header_nav {
+    display: block;
+  }
+}
