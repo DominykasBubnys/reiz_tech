@@ -23,6 +23,7 @@
   text-decoration: none;
   padding: 0.5rem 3rem;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .nav_links a:hover,

@@ -41,7 +41,7 @@ const Profile = () => {
                     <ul className={classes.saved_ul}>
                         <img className={classes.icon} src={saved_icon} />
                         {
-                            SavedCountries.map(country => <li>{country.name}</li>)
+                            SavedCountries.map(country => <li key={Math.random()}>{country.name}</li>)
                         }
 
                     </ul>

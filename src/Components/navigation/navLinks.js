@@ -18,6 +18,7 @@ const NavLinks = props => {
 
       try {
         await Auth.login("tester@tester.com", "tester");
+
       } catch (error) {
         console.log("Error: ", error);
       }
@@ -63,7 +64,7 @@ const NavLinks = props => {
         :
         
         <li className={classes.demo_link}>
-          <NavLink to="/" onClick={quickLoginHandler}>TRY DEMO</NavLink>
+          <a onClick={quickLoginHandler}>TRY DEMO</a>
         </li>
 
         }
